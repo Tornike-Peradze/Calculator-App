@@ -1,26 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Calculator app</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator app</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+  </head>
+  <body>
+    <header>
+      <h1>calc</h1>
+      <div class="style-changer">
+        <div class="style-numbers">
+          <p class="style one">1</p>
+          <p class="style two">2</p>
+          <p class="style three">3</p>
+        </div>
+        <div class="range">
+          <h3 class="theme">theme</h3>
+          <input
+            type="range"
+            min="1"
+            max="3"
+            value="1"
+            class="slider"
+            oninput="update()"
+          />
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="result">
+        <input type="text" class="resulted-number" id="res-n" readonly />
+      </section>
+      <section class="calculation">
+        <button class="button" value="7">7</button>
+        <button class="button" value="7"></button>
+      </section>
+    </main>
+    <script src="./main.js"></script>
+  </body>
 </html>
