@@ -256,12 +256,92 @@ main {
   }
 }
 
-/*  */
-
-.theme-2 button {
-  background: red;
-}
+/* second theme */
 
 .theme-2 {
-  background: ;
+  background: #e6e6e6;
+}
+
+.theme-2 .theme-change {
+  color: #36362c;
+}
+
+.theme-2 .slider {
+  background: #d2cdcd;
+}
+
+.theme-2 .resulted-number {
+  background: #eee;
+}
+
+.theme-2 .calculation {
+  background: #d2cdcd;
+}
+
+.theme-2 .button {
+  background: #e5e4e1;
+  box-shadow: 0px -4px 0px 0px #a79e91 inset;
+}
+
+.theme-2 .delete {
+  background: #378187;
+  box-shadow: 0px -4px 0px 0px #1b6066 inset;
+  color: #fff;
+}
+
+.theme-2 .reset {
+  background: #378187;
+  box-shadow: 0px -4px 0px 0px #1b6066 inset;
+  color: #fff;
+}
+
+.theme-2 .equal {
+  background: #c85402;
+  box-shadow: 0px -4px 0px 0px #873901 inset;
+  color: white;
+}
+
+/* third theme */
+
+.theme-2 {
+  background: #17062a;
+}
+
+.theme-2 .theme-change {
+  color: #ffe53d;
+}
+
+.theme-2 .slider {
+  background: #1e0936;
+}
+
+.theme-2 .resulted-number {
+  background: #1e0936;
+}
+
+.theme-2 .calculation {
+  background: #1e0936;
+}
+
+.theme-2 .button {
+  background: #331c4d;
+  box-shadow: 0px -4px 0px 0px #881c9e inset;
+}
+
+.theme-2 .delete {
+  background: #56077c;
+  box-shadow: 0px -4px 0px 0px #be15f4 inset;
+  color: #fff;
+}
+
+.theme-2 .reset {
+  background: #56077c;
+  box-shadow: 0px -4px 0px 0px #be15f4 inset;
+  color: #fff;
+}
+
+.theme-2 .equal {
+  background: #00ded0;
+  box-shadow: 0px -4px 0px 0px #6cf9f1 inset;
+  color: #1a2327;
 }
